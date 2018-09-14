@@ -17,14 +17,14 @@ h1, h2, h3, h4{
 
 h1{
 	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
+	color:rgba(255,255,255,1);
 	text-shadow: 1px 1px 0 #999;
 	text-align:center;
 }
 
 h2{/*subtitulo*/
 	letter-spacing:0.02em;
-	color:rgba(255,255,255,0.6);
+	color:rgba(255,255,255,0.8);
 	padding:0.2em 0;
 	text-shadow: 0px 0px 0 #999;
 	text-align:center;
@@ -32,7 +32,7 @@ h2{/*subtitulo*/
 
 h3{/* quienes somos y trabajos*/
 	letter-spacing:0.2em;
-	color:rgba(155,155,155,1);
+	color:rgba(223,183,52,1);
 	padding:2em 0 0.6em 0;
 	text-shadow: 0px 0px 0 #ccc;
 	text-align:center;
@@ -81,13 +81,13 @@ video{
 	}
 
 .dupla a{
-	color:rgba(255,255,255,0.75);
+	color:rgba(223,183,52,1);
 	text-decoration:none;
 	font-weight:700;
 }
 
 .dupla a:hover{
-	color:rgba(223,183,52,1);
+	color:rgba(255,255,255,0.75);
 	text-decoration:underline;
 }
 
