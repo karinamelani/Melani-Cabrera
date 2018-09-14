@@ -38,9 +38,15 @@ h3{/* quienes somos y trabajos*/
 	text-align:center;
 }
 
-h4, h5, h6{
-	font-weight:left;
-	font-weight:600;
+h4,h5,h6{/*nombres de las cabras*/
+	letter-spacing:0.1em;
+	color:rgba(255,255,255,0.9);
+	padding:2em 0 0.6em 0;
+	font-weight:500;
+}
+
+h5{
+	font-weight:400;
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -92,7 +98,7 @@ video{
 }
 
 .primera{
-	min-height:300px;
+	min-height:500px;
 	text-align:left;
 	background-color:rgba(0,57,82,1);
 	background-image:url('media/dupla-01.jpg');
@@ -109,7 +115,7 @@ video{
 .primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
 
 .segunda{
-	min-height:300px;
+	min-height:500px;
 	text-align:right;
 	background-color:rgba(0,57,82,1);
 	background-image:url('media/dupla-02.jpg');
@@ -157,12 +163,12 @@ video{
 	width:100%;
 	height:auto;
 	margin-bottom:-4px;
-	filter: grayscale(1);
+	filter: blur(1);
 }
 
 .item:hover figure img{
 	transform:scale(1.25);
-	filter: grayscale(0);
+	filter: blur(0);
 	transition:all ease-out 0.5s;
 }
 
