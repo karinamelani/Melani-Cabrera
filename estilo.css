@@ -22,7 +22,7 @@ h1{
 	text-align:center;
 }
 
-h2{
+h2{/*subtitulo*/
 	letter-spacing:0.02em;
 	color:rgba(255,255,255,0.6);
 	padding:0.2em 0;
@@ -30,7 +30,7 @@ h2{
 	text-align:center;
 }
 
-h3{
+h3{/* quienes somos y trabajos*/
 	letter-spacing:0.2em;
 	color:rgba(155,155,155,1);
 	padding:2em 0 0.6em 0;
@@ -87,7 +87,7 @@ video{
 }
 
 .dupla a:hover{
-	color:rgba(255,0,0,1);
+	color:rgba(255,255,255,1);
 	text-decoration:underline;
 }
 
